@@ -1,0 +1,35 @@
+<p>&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="0">
+	<tbody>
+		<tr>
+			<th colspan="5">( ! ) Warning: fread(): Length parameter must be greater than 0 in C:\wamp\www\tmlog\www\ck.php on line <em>16</em></th>
+		</tr>
+		<tr>
+			<th colspan="5">Call Stack</th>
+		</tr>
+		<tr>
+			<th>#</th>
+			<th>Time</th>
+			<th>Memory</th>
+			<th>Function</th>
+			<th>Location</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>0.0040</td>
+			<td>240544</td>
+			<td>{main}( )</td>
+			<td>..\ck.php<strong>:</strong>0</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>0.0050</td>
+			<td>241592</td>
+			<td><a href="http://www.php.net/function.fread" target="_new">fread</a> ( )</td>
+			<td>..\ck.php<strong>:</strong>16</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>

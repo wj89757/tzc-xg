@@ -1,0 +1,57 @@
+
+.mainDiv
+{
+	height:100%; 
+	width:100%;
+	position:absolute;
+	background-color:#FFF;
+}
+
+.container_12, .container_16 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+.container_12 .grid_6, .container_16 .grid_8 {
+    width: 460px;
+}
+
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.grid_17
+{
+	display: inline;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.grid_17
+{
+	display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+.alpha {
+    margin-left: 0px;
+}
+.omega {
+	margin-left:40px;
+    margin-right: 0px;
+}
+.bmoot
+{
+	margin-left:40px;
+}

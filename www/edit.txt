@@ -1,0 +1,11 @@
+<p><a href="http://www.tzc.edu.cn">php</a>是一门简单的<span class="marker"><strong>网页编辑语言</strong></span>。</p>
+
+<p>&nbsp;</p>
+
+<blockquote>
+<ol>
+	<li>
+	<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;">小名是个好<strong><s>还子</s></strong></div>
+	</li>
+</ol>
+</blockquote>

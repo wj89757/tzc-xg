@@ -1,0 +1,272 @@
+
+.mainDiv
+{
+	width:100%;
+	position:absolute;
+	background-color:#FFF;
+}
+
+.container_12, .container_16 {
+	
+    margin-left: auto;!important;
+    margin-right: auto;!important;
+    width: 960px; !important;
+}
+.upspace
+{
+	margin-bottom:40px;
+}
+.container_8
+{
+	 margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+.container_12 .grid_6, .container_16 .grid_8 {
+    width: 460px;
+}
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.grid_17
+{
+	 display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+.clearfix {
+    clear: both;
+    font-size: 1px;
+    width: 1px;
+    height: 0px;
+    visibility: hidden;
+    margin-top: 0px !important;
+    line-height: 0;
+}
+.alpha {
+    margin-left: 0px;
+}
+.omega {
+	margin-left:40px;
+    margin-right: 0px;
+}
+.bmoot
+{
+	margin-left:40px;
+}
+/*******************************************
+	article container Styles
+********************************************/
+.column-fluid {
+	
+    float: left;
+    margin-bottom: 25px;
+	margin: 0px auto;
+	padding: 0px;
+	border: 0px none;
+	
+}
+.article-box
+{
+	
+	float:left;
+	overflow:hidden;
+	margin-left:10px;
+	margin-top:65px;
+	height:680px;
+	margin-right:320px;
+	height:auto;
+}
+.cur-title {
+    margin-bottom: 25px;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 2px solid #DDD;
+    clear: both;
+	font-size:18px;
+	font-weight: normal;
+font-family: "Microsoft Yahei","黑体","Helvetica Neue";
+}
+.post {
+	width:500px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #EEE;
+    overflow: hidden;
+}
+.post .thumbnail {
+    float: left;
+    padding: 6px 18px 0px 0px;
+    width: 200px;
+    height: 150px;
+    vertical-align: middle;
+    display: table-cell;
+    overflow: hidden;
+}
+.post .title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.post .postmeta {
+    margin: 2px auto 8px;
+    color: #DDD;
+    overflow: hidden;
+}
+.post .postmeta span.author {
+    padding: 0px 10px 0px 0px;
+}
+.post .postmeta span.views {
+    float: right;
+    padding: 0px;
+}
+.post .postmeta span i {
+    color: #999;
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+}
+.post .excerpt {
+    font-size: 14px;
+    color: #444;
+	overflow: hidden;
+	font: 12px/24px "Microsoft Yahei","黑体","Helvetica Neue",Arial,Helvetica,sans-serif;
+	position:relative;
+	width:200px;
+}
+#ajax-load-posts {
+    text-align: center;
+}
+#ajax-load-posts a.btn {
+    padding: 12px 50px;
+    font-size: 16px;
+    border: 1px solid #1873DE;
+    color: #FFF;
+}
+a:link, a:visited {
+    color: #333;
+    text-decoration: none;
+    outline: medium none;
+}
+.radius {
+    border-radius: 3px;
+}
+.btn, input[type="submit"] {
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #FFF;
+    border: medium none;
+    background: #1873DE none repeat scroll 0% 0%;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    outline: medium none;
+    text-decoration: none;
+}
+.boldfont
+{
+	font-size:15px;
+	font-family:"华文楷体", "方正舒体";
+}
+/*******************************************
+	sidebar Styles
+********************************************/
+aside{
+    display: block;
+}
+.sidebar {
+	position: absolute;  
+	z-index: 9999;
+	margin-left:730px;
+	margin-top:65px;
+    width: 300px;
+    overflow: hidden;
+	
+}
+.sidebarnext {
+	margin-top:425px;
+}
+.sidebarnextdouble {
+	margin-top:785px;
+}
+.sidebar ul li {
+    margin-bottom: 15px;
+    clear: both;
+    overflow: hidden;
+}
+ul, ol, li {
+    list-style: outside none none;
+}
+.wpyou
+{
+	width:300px;
+	height:515px;
+	margin-left:-30px;
+}
+.sidebar h3 {
+	margin-left:30px;
+	margin-bottom: 25px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    border-bottom: 2px solid #E6E6E6;
+    color: #000;
+}
+.sidebar ul li.wpyou ul li img {
+	position:relative;
+	float: left;
+    padding-right: 10px;
+    width: 100px;
+    height: 75px;
+	border: 0px none;
+}
+.sidebar ul li.wpyou ul li h4 {
+    margin-bottom: 14px;
+    font-size: 14px;
+    max-height: 38px;
+    overflow: hidden;
+}
+.sidebar ul li.wpyou ul li p {
+    color: #999;
+}
+.sidebar ul li.wpyou ul li p {
+    margin: 0px auto;
+    font-size: 12px;
+}
+.sidebar ul li ul li span.views {
+    float: right;
+    font-size: 12px;
+}
+/*******************************************
+	server.php
+********************************************/
+.bottomserver
+{
+	width:90%; !important;
+	height:80%; !important;
+	padding:10px; !important;
+	margin-bottom:10px; !important;
+	border-style:dashed; !important;
+	border-left: 1px solid #C1DAD7;  !important;
+	border-right: 1px solid #C1DAD7;  !important;
+	border-bottom: 1px solid #C1DAD7;  !important;
+	border-top: 1px solid #C1DAD7;  !important;
+	letter-spacing: 2px;!important;
+	font-size:14px;!important;
+}
